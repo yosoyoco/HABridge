@@ -1,0 +1,51 @@
+name: Bug report
+description: Report a reproducible HABridge issue.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: Windows version or macOS version
+    validations:
+      required: true
+  - type: input
+    id: lv1
+    attributes:
+      label: eMotion LV1 version
+    validations:
+      required: true
+  - type: input
+    id: console
+    attributes:
+      label: Console
+      placeholder: WING, X32, M32, or model
+    validations:
+      required: true
+  - type: input
+    id: soundgrid
+    attributes:
+      label: SoundGrid interface or card
+    validations:
+      required: true
+  - type: input
+    id: stagebox
+    attributes:
+      label: Stagebox, if any
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the observed result and the expected result.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "Before attaching logs, remove personal or unnecessary network information. Do not attach Waves licences, keys, memory dumps or session files containing private data."
