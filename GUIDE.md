@@ -1,4 +1,4 @@
-# HABridge 1.1.1 — Guide utilisateur
+# HABridge 1.2.0 — Guide utilisateur
 
 Copyright © 2026 YoSoYoCo.
 
@@ -14,13 +14,13 @@ HABridge est gratuit. Si vous appréciez le projet, vous pouvez soutenir son dé
 
 ## 2. Compatibilité
 
-HABridge 1.1.1 prend en charge les consoles Behringer WING, X32 et Midas M32 équipées d’une interface SoundGrid compatible et utilisées avec eMotion LV1.
+HABridge 1.2.0 prend en charge les consoles Behringer WING, X32 et Midas M32 avec les interfaces SoundGrid WING, X-WSG et DN32-WSG correspondantes, utilisées avec eMotion LV1.
 
 HABridge permet de contrôler le gain et le +48 V des préamplis pris en charge par la console, y compris les préamplis accessibles via AES50.
 
 HABridge est disponible pour Windows et macOS 12 ou version ultérieure. Sur Mac, HABridge Control est compatible Intel et Apple Silicon. Les modules Waves correspondant à l’interface SoundGrid utilisée doivent être installés.
 
-Consultez la [liste des configurations compatibles fournie avec cette version](../packaging/SUPPORTED_VERSIONS.txt).
+Consultez la [liste des configurations compatibles](SUPPORTED_VERSIONS.md).
 
 ## 3. Installation et premier lancement
 

@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0 — 2026-09-24
+
+- Added DN32-WSG support for compatible X32/M32 systems on Windows and macOS.
+- Improved compatibility with Waves v17 SoundGrid control modules.
+- Added universal macOS DN32 support for Intel and Apple Silicon.
+
 ## 1.1.1 — 2026-09-22
 
 - Added the optional “Soutenir HABridge…” action in HABridge Control.

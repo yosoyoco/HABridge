@@ -1,10 +1,10 @@
-HABRIDGE 1.1.1 — THIRD-PARTY NOTICES
+HABRIDGE 1.2.0 — THIRD-PARTY NOTICES
 
 These notices govern the identified third-party portions only. The HABridge proprietary licence does not restrict rights granted by the licences below. No Waves software, .NET Framework redistributable, Apple framework, or standalone libc++ library is included.
 
 WINDOWS — INCORPORATED COMPONENTS
 
-Zig compiler runtime, from Zig 0.15.2. Copyright (c) Zig contributors. MIT/Expat. Compiled runtime code is present inside the HABridge backend modules (historical internal names WingWrapperIOBox.dll and X32WrapperIOBox.dll, also embedded in the installer). Its math routines include musl-derived contributions identified below. Required copyright and permission notices are preserved here. This does not describe redistribution of the Zig compiler executable.
+Zig compiler runtime, from Zig 0.15.2. Copyright (c) Zig contributors. MIT/Expat. Compiled runtime code is present inside the HABridge backend modules (historical internal names WingWrapperIOBox.dll, X32WrapperIOBox.dll and DN32WrapperIOBox.dll, also embedded in the installer). Its math routines include musl-derived contributions identified below. Required copyright and permission notices are preserved here. This does not describe redistribution of the Zig compiler executable.
 
 mingw-w64: Windows ABI headers and import-library interface contributions from the Zig 0.15.2 distribution. Applicable project notice is reproduced below. Linked import stubs reference the user's Windows system libraries; the final debug contribution table identifies no separate MinGW CRT object. No LGPL/GPL runtime contribution was identified in the linked objects. No MinGW runtime DLL is bundled.
 

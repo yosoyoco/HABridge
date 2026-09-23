@@ -1,4 +1,4 @@
-HABRIDGE 1.1.1 — PROPRIETARY FREEWARE LICENCE
+HABRIDGE 1.2.0 — PROPRIETARY FREEWARE LICENCE
 
 Copyright © 2026 YoSoYoCo. All rights reserved, subject to applicable mandatory law and the separate rights of third-party contributors.
 
