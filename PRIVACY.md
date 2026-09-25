@@ -1,4 +1,4 @@
-HABridge 1.2.0 — Confidentialité
+HABridge 1.2.1 — Confidentialité
 
 HABridge fonctionne sur votre réseau local, sans compte, télémétrie ni service cloud. Aucune donnée n’est envoyée par Internet.
 

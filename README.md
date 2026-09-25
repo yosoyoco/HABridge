@@ -1,4 +1,4 @@
-# HABridge 1.2.0
+# HABridge 1.2.1
 
 HABridge controls preamp gain and +48 V for compatible preamps directly from the **PREAMP** section of eMotion LV1.
 
@@ -19,10 +19,15 @@ See the [user guide](GUIDE.md) and [supported versions](SUPPORTED_VERSIONS.md).
 
 1. Install the Waves module required by the SoundGrid interface and confirm it works in LV1.
 2. Close eMotion LV1.
-3. Install HABridge, then associate each SoundGrid device with its console in HABridge Control.
+3. Windows: open `HABridge-1.2.1-Windows.exe` and click **Installer HABridge**. macOS: unzip `HABridge-1.2.1-macOS.zip`, move HABridge Control to Applications, open it and click **Installer HABridge**.
 4. In LV1, assign the SoundGrid devices and patch their inputs to the required channels.
+5. With LV1 running, associate each SoundGrid device with its console in HABridge Control.
 
 Download HABridge from [Releases](../../releases).
+
+## Updating
+
+Close eMotion LV1 and HABridge Control, then open the new version (Windows: the new `.exe`; macOS: replace the app in Applications). When HABridge Control shows « Mise à jour nécessaire », click **Installer cette version**. Associations are kept; there is no need to uninstall first.
 
 ## +48 V
 

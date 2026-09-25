@@ -1,4 +1,4 @@
-# HABridge 1.2.0 — Guide utilisateur
+# HABridge 1.2.1 — Guide utilisateur
 
 Copyright © 2026 YoSoYoCo.
 
@@ -14,7 +14,7 @@ HABridge est gratuit. Si vous appréciez le projet, vous pouvez soutenir son dé
 
 ## 2. Compatibilité
 
-HABridge 1.2.0 prend en charge les consoles Behringer WING, X32 et Midas M32 avec les interfaces SoundGrid WING, X-WSG et DN32-WSG correspondantes, utilisées avec eMotion LV1.
+HABridge 1.2.1 prend en charge les cartes SoundGrid WING, X-WSG et DN32-WSG avec les consoles compatibles Behringer WING, X32 et Midas M32, utilisées avec eMotion LV1.
 
 HABridge permet de contrôler le gain et le +48 V des préamplis pris en charge par la console, y compris les préamplis accessibles via AES50.
 
@@ -27,10 +27,19 @@ Consultez la [liste des configurations compatibles](SUPPORTED_VERSIONS.md).
 Reliez le port réseau de contrôle de la console à l’ordinateur qui exécute eMotion LV1, directement ou via un switch réseau.
 
 1. Installez le module SoundGrid Waves correspondant à votre interface et vérifiez son fonctionnement dans LV1 avant d’installer HABridge.
-2. Sauvegardez votre travail, puis fermez eMotion LV1 avant d’installer ou de mettre à jour HABridge.
-3. Sous Windows, utilisez l’installateur HABridge fourni. Sous macOS, placez l’application fournie dans Applications, puis ouvrez HABridge Control. Si Control indique « HABridge n’est pas installé », cliquez sur « Installer HABridge » et autorisez l’installation lorsque le système le demande.
-4. Dans eMotion LV1, affectez les appareils SoundGrid dans System Inventory, puis patchez leurs entrées vers les tranches souhaitées dans PATCH. Les commandes PREAMP correspondent aux sources ainsi affectées.
-5. Ouvrez HABridge Control.
+2. Sauvegardez votre travail, puis fermez eMotion LV1.
+3. Sous Windows : ouvrez le fichier HABridge-1.2.1-Windows.exe. La fenêtre HABridge Control s’ouvre : cliquez sur « Installer HABridge » et acceptez la demande d’autorisation de Windows. HABridge Control est alors disponible dans le menu Démarrer ; le fichier téléchargé n’est plus nécessaire.
+4. Sous macOS : décompressez HABridge-1.2.1-macOS.zip, placez HABridge Control dans Applications, puis ouvrez-le. Si macOS refuse de l’ouvrir, ouvrez Réglages Système › Confidentialité et sécurité, puis cliquez sur « Ouvrir quand même ». Cliquez sur « Installer HABridge » et saisissez le mot de passe administrateur du Mac.
+5. Dans eMotion LV1, affectez les appareils SoundGrid dans System Inventory, puis patchez leurs entrées vers les tranches souhaitées dans PATCH. Les commandes PREAMP correspondent aux sources ainsi affectées.
+6. Laissez eMotion LV1 ouvert et ouvrez HABridge Control pour associer votre appareil (section 4).
+
+### Mettre à jour HABridge
+
+1. Sauvegardez votre travail, puis fermez eMotion LV1 et HABridge Control.
+2. Sous Windows : ouvrez le nouveau fichier HABridge-…-Windows.exe. Sous macOS : remplacez HABridge Control dans Applications par la nouvelle version, puis ouvrez-la.
+3. HABridge Control affiche « Mise à jour nécessaire » : cliquez sur « Installer cette version » et autorisez l’opération.
+
+Vos associations sont conservées. Il n’est pas nécessaire de désinstaller l’ancienne version.
 
 ## 4. Associer un appareil
 

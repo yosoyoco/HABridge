@@ -1,2 +1,2 @@
-d4bfc19d1460b54adc6524b94541716483da611280dc5ae5ddd0ba4f5ab23945  HABridge-1.2.0-Windows.exe
-376ab203889375b637ecd0aeeffdf8abb3c995a0c24832fd91bc1456c5d8cd1d  HABridge-1.2.0-macOS.zip
+8718e059e52399f94dae34a63df8ab1b06a672dd037dcf93dbb55a5946e42b75  HABridge-1.2.1-Windows.exe
+5280ad214f9ce272eb379a5668b5ff3a09c158d3529a297af18129a7412bc8f0  HABridge-1.2.1-macOS.zip

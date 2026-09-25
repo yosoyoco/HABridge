@@ -1,4 +1,4 @@
-HABRIDGE 1.2.0 — THIRD-PARTY NOTICES
+HABRIDGE 1.2.1 — THIRD-PARTY NOTICES
 
 These notices govern the identified third-party portions only. The HABridge proprietary licence does not restrict rights granted by the licences below. No Waves software, .NET Framework redistributable, Apple framework, or standalone libc++ library is included.
 

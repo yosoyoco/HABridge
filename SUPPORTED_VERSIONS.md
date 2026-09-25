@@ -1,4 +1,4 @@
-# HABridge 1.2.0 — Compatibilité
+# HABridge 1.2.1 — Compatibilité
 
 ## Consoles compatibles
 
